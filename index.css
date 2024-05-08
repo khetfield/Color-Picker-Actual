@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  width: 100v;
+  margin: 10px;
+  background-color: lightgray;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  flex-grow: 1;
+  max-height: 10%;
+  min-height: 80px;
+  background-color: darkslategray;
+  color: lightslategray;
+  font-weight: bolder;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: solid 5px black;
+}
+
+#navbar div {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+}
+
+#colors-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#colors-list div {
+  height: 200px;
+  width: 200px;
+  border-radius: 35%;
+  margin-top: 40px;
+  transition: all .1s ease;
+}
+
+.selected {
+  border: 5px solid black;
+}
+
+/* colors */
+.Red {
+  background-color: #cf000f;
+}
+.Orange {
+  background-color: #eb6b56;
+}
+.Yellow {
+  background-color: #ffc153;
+}
+.Green {
+  background-color: #27ae60;
+}
+.Blue {
+  background-color: #1d4fda;
+}
+.Violet {
+  background-color: #462446;
+}
+.Black {
+  background-color: #000000;
+}
+.White {
+  background-color: #ffffff;
+}
